@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: linear-gradient(120deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .about, .projects, .contact {
+    background: white;
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    background: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4e54c8;
+    border-radius: 6px;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
